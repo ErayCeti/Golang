@@ -16,7 +16,7 @@ import "fmt"
 // const a CompanyName = 5 => Yanlış
 // const a CompanyName = true => Yanlış
 
-// CompanyName funclarda kullanılır
+// CompanyName funclarda da kullanılır
 type CompanyName string
 
 //  constlar () açarak çoklu kullanım olabilir
