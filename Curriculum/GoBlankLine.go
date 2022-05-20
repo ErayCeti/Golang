@@ -20,6 +20,7 @@ func main() {
 	// var _ string = "QWE" // _ tanımlayıcıdır fakat boş tanımlayıcıdır
 	// fmt.println(_)       // Error
 
-	var _, x, _ int = 0,5 0 // _ tanımsız olduğu için onlara değer vermemek olmaz vermezsek go error verir  bunun için _ denk gelen yerlere 0 vericez
-	fmt.println(x) // sadece x değerini alabiliriz
+	var _, x, a int = 0, 5, 12 // _ tanımsız olduğu için onlara değer vermemek olmaz vermezsek go error verir  bunun için _ denk gelen yerlere 0 vericez
+	fmt.Println(x)             // sadece x değerini alabiliriz
+	fmt.Println(a)             // sadece x değerini alabiliriz
 }
